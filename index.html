@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="viewport" content="width=device-width.initial-scale=1.0" />
+    <title>Katik Persegi</title>
+  </head>
+  <body>
+    <script src="js/script.js"></script>
+    <header>
+      <h1>Kalkulator Luas dan Keliling Persegi</h1>
+      <p>web ini digunakan untuk menghitung luas dan keliling persegi dalam rangka menyelesaikan tugas mini project dari RevoU</p>
+    </header>
+
+    <div class="out">
+      <p>Masukkan Sisi Perseginya <input type="text" id="s" oninput="luas(), kel()" /></p>
+      <p>Luas Persegi Adalah = <span id="luas"></span></p>
+      <p>Keliling Persegi Adalah = <span id="kel"></span></p>
+    </div>
+
+    <div class="cat">
+      <p>Catatan:</p>
+      <p>Rumus Luas Persegi : L=s*s</p>
+      <p>Rumus Keliling Persegi : K=4s</p>
+      <p>dengan</p>
+      <p>L=luas</p>
+      <p>K=keliling</p>
+      <p>s=sisi</p>
+    </div>
+  </body>
+</html>
